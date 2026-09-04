@@ -1,0 +1,23 @@
+# The object itself. Nine files, 169,530 bytes, none of them ours.
+game/
+_pre/
+_work/
+prompt.txt
+
+# Derived bytes of the product: hashes yes, bytes no.
+__pycache__/
+*.pyc
+*.exe
+*.com
+*.bat
+*.ppc
+*.hsc
+*.png
+
+# `popcorn.doc` is a code-page-437 TEXT file of the product, not a Word
+# document. It is excluded for the same reason every other product byte is.
+*.doc
+
+# Product prose is the product's. Our notes are ours.
+*.txt
+!notes/*.txt

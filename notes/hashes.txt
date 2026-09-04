@@ -1,0 +1,10 @@
+76e0619e6dba7775f1f54da5867af548a70294d4            16  ltf.bat
+c3dc207ff6d7098cc15581d6af1ba5720cecaef7          8630  ltf.ppc
+83e7e3bfa9670a5fb370ccadc7f3f8a7d2394aef            13  pop.bat
+1e21b16124421812ee914feac591326a381fdff7          4727  popcorn.doc
+a8b4a8e1402290c5bef3dba2e0781ba63c1cc8a1        103848  popcorn.exe
+0ea9555dd5762dc1433d97097ffccab28a7a5cee           180  popcorn.hsc
+bdff1d49db14a2e35f44247f708c17469d464175         42354  popgen.exe
+6742cc4f429cb4a7960f904da47c14c1759f9b30          1132  popspeed.exe
+c09fe7f8d0141ebfa7db97a065c825ad4be18c19          8630  poptab.ppc
+files 9  bytes 169530  distinct sha1 9  unreadable 0  excluded 0
