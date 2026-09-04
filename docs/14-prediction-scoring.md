@@ -67,8 +67,8 @@ counting** is rule 6, and this is what it is for.
 | C26 | hit | 0.50 | 0.50 | the two files share exactly one block |
 | C27 | hit | 0.70 | 0.70 | explained: it is the `n9` count and its position slots |
 | C28 | hit | 0.90 | 0.90 | 180 = 10 × 18, 10 of 10 printable, residue +0 |
-| C29 | unresolved | 0.00 | 0.70 | the question is out and has not come back |
-| C30 | unresolved | 0.00 | 0.50 | depends on C29 |
+| C29 | unresolved | 0.00 | 0.70 | he ran the game and confirmed the screen shows `LTF` / 546 — which verifies the reader and not the prompt |
+| C30 | unresolved | 0.00 | 0.50 | depends on C29; seeing a name displayed is not seeing it typed |
 | C31 | hit | 0.85 | 0.85 | the clause is written as a rule with two corollaries and its generating case |
 | C32 | hit | 0.80 | 0.80 | names printed; address and number reported as a shape, no digits, no town |
 | C33 | hit | 0.75 | 0.75 | `LACRAL` = LACaze + RAynaL is nowhere in the object; published as an inference |

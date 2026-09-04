@@ -71,9 +71,11 @@ the last DOS-printed message. The value-passing mechanism is fully read in
 chapter 07 and does not use it.
 
 **7. What `LTF` is.** Chapter 07 sets out the evidence in both directions and
-chapter 09 decides what to publish while it is open. **One question to the owner
-of this machine settles it and the question is out.** This is the object's only
-leftover that a human can close in thirty seconds.
+chapter 09 decides what to publish while it is open. **The owner of this machine
+ran the game and confirmed that the high-score screen shows `LTF` with 546** —
+which verifies `hsc.py` end to end and does not say who wrote the name. The
+remaining step is one further on: beat 546 and see whether the game asks. This
+is still the object's only leftover a human can close in thirty seconds.
 
 ## Two that were leftovers and are not any more
 

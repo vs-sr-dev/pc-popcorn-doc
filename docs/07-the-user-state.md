@@ -96,13 +96,40 @@ score file, and the built-in set has no name at all. But `ltf.ppc` and `ltf.bat`
 were both added to this disc after the manual was written (chapter 03), by the
 same hand, at the same time as the score was set.
 
-**The owner of this machine can settle it in thirty seconds** by reaching the
-high-score screen and seeing whether the game asks. The question was put to him
-at the start of this session and has not come back; chapter 09 decides what
-this repository publishes in the meantime, which is the conservative thing, and
-chapter 13 records the question as open. **No name is printed here that the
-object does not print about itself**, and `LTF` is three letters that could be
-initials, so it is treated as if it were.
+## The reader, verified end to end by a human
+
+**The owner of this machine ran the game and reports that the high-score screen
+shows `LTF` with 546 points.** That is his observation, attributed to him, and
+this session executed nothing.
+
+It is the only end-to-end verification that exists on `hsc.py`, and it is worth
+more than it looks. Everything above is an argument that 180 bytes of ASCII
+divide into ten 18-byte records of a 12-byte name and a 6-digit score — an
+argument from arithmetic and from the shape of the default row, with no
+independent witness. **The witness is the game itself**: the bytes at offsets 0
+to 17 of `popcorn.hsc` render on a CGA screen as the name and the number this
+reader says they are. A wrong record width, a wrong field split or a wrong
+denominator would have shown up there and did not.
+
+The same role was played on the previous object by the owner listening to twelve
+extracted WAV files and confirming they matched their names, and on this one by
+his verdict on the seven sound tables in chapter 08. **Three objects running,
+the cheapest verification available has been a person looking at the thing.**
+
+## What it does not settle
+
+It confirms that the file the game reads is the file this repository parsed. It
+does not say **who or what wrote `LTF` into it**, which is the live question:
+seeing a name displayed is not seeing it typed.
+
+**The remaining measurement is one step further on**: beat 546 and see whether
+the game asks for a name. If it prompts, `LTF` is somebody's initials and is
+user state belonging to whoever typed it; if the new score simply appears with
+a label the program chose, it is not. Until then chapter 09 decides what this
+repository publishes, which is the conservative thing, and chapter 13 records
+the question as open. **No name is printed here that the object does not print
+about itself**, and `LTF` is three letters that could be initials, so it is
+treated as if it were.
 
 ## What `POPSPEED` writes, and it is not a file
 
